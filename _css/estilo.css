@@ -1,11 +1,19 @@
 @charset "UTF-8";
 
 body {
-    background-color:rgb(255, 255, 255);
+    background-color: #dddddd;
+}
+
+div#interface {
+    width: 900px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+
 }
 p { 
     text-align: justify;
     text-indent: 50px;
+    
 }
 
 /* Formatação de imagens com legendas */
@@ -42,8 +50,6 @@ figure.foto-legenda:hover figcaption {
 
 nav#menu {
     display: block;
-
-
 }
 
 nav#menu ul { 
@@ -52,6 +58,7 @@ nav#menu ul {
     position: absolute;
     top: -20px;
     left: 300px;
+
  }
 
  nav#menu li {
@@ -59,8 +66,27 @@ nav#menu ul {
     background-color: #dddddd;
     padding: 10px;
     margin: 2px;
+    transition: background-color 1s;
+
+ }
+
+ nav#menu li:hover {
+    background-color: #606060;
+
  }
 
  nav#menu h1 {
     display: none;
+
+ }
+
+ nav#menu a {
+    color: black;
+    text-decoration: none;
+
+ }
+
+ nav#menu a:hover {
+    color: white;
+    text-decoration: underline;
  }
