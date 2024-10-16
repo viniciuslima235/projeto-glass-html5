@@ -1,11 +1,11 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 body {
     background-color:rgb(221, 221, 221);
 }
 p { 
     text-align: justify;
-    text-indent: 50px;"
+    text-indent: 50px
 }
 
 /* Formatação de imagens com legendas */
